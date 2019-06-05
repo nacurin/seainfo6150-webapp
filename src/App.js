@@ -1,13 +1,14 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import Article from "./Article.js";
 
 const App = ({ article }) => {
   return (
     <div className="App">
-      
+       <Article article={article} />
     </div>
   );
-}
+};
 
 App.propTypes = {
   article: PropTypes.shape({
