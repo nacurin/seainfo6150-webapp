@@ -1,14 +1,15 @@
 import React from "react";
 import "./ArticleListItem.module.css";
 
-const ArticleListItem = ({ title, date, year, author, shortText }) => {
+import ArticleImage from "./ArticleImage";
+const ArticleListItem = ({ title, date, year, author, shortText, image }) => {
   return (
     <li>
       <article>
+        <ArticleImage url={image._url} title={title} />
         <header>
           <h1>{title}</h1>
         </header>
-
         <p>{shortText}</p>
 
         <footer>
