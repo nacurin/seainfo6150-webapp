@@ -1,10 +1,13 @@
 li {
   list-style-type: none;
-  border: 1px solid red;
-  margin: 20px 20px 10px 10px;
-  padding: 1rem;
-  width: 90%;
-  background-color: #a6bc95;}
+  margin-bottom: 2rem;
+  padding: 2rem;
+  border: 1px solid #c60505;
+  border-radius: 1rem;
+  background: linear-gradient(to right, #ff9eb1 0%, #eee 10%);
+  background-color: #eee;
+  box-shadow: 0.5px 0.5rem 0.5rem #4c4c4c;
+  }
 
 li:last-child {
   padding-left: 10px;
