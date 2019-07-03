@@ -1,11 +1,18 @@
 import React from "react";
 import PropTypes from "prop-types";
+
+import Header from "./Header/Header";
 import ArticleList from "./ArticleList/ArticleList";
+import Footer from "./Footer/Footer";
 
 const App = ({ articles }) => {
-  return <div className="App">
-    <ArticleList articles={articles}/>
-  </div>;
+  return (
+    <div className="App">
+      <Header />
+      <ArticleList articles={articles} />
+      <Footer />
+    </div>
+  );
 };
 
 App.propTypes = {

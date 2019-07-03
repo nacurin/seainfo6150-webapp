@@ -1,11 +1,11 @@
 import React from "react";
-import "./ArticleList.module.css";
+import styles from "./ArticleList.module.css";
 
 import ArticleListItem from "./ArticleListItem";
 
 const ArticleList = ({ articles }) => {
   return (
-    <ul>
+    <ul className={styles.list}>
       {Object.values(articles).map(article => {
         return (
           <ArticleListItem

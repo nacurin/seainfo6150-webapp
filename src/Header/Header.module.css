@@ -1,0 +1,11 @@
+.header {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0.5rem;
+    padding: 2rem;
+    background-color: #cb0000;
+    color: #fff;
+  }
+  

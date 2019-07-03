@@ -1,10 +1,10 @@
 import React from "react";
-import "./ArticleImage.module.css";
+import styles from "./ArticleImage.module.css";
 
 const ArticleImage = ({ url, title }) => {
   return (
-    <figure>
-      <img src={url} alt={title} />
+    <figure className={styles.figure}>
+      <img className={styles.image} src={url} alt={title} />
     </figure>
   );
 };

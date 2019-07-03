@@ -1,6 +1,20 @@
-ul {
-  margin: 1rem;
-  padding: 1rem;
-  background-color: grey;
-  box-shadow: 0px 0.5rem 0.5rem #606060;
-} 
+.list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 2rem;
+  margin: 1rem 1rem;
+  padding: 2rem;
+  background-color: #a0a0a0;
+}
+
+@media screen and (max-width: 800px) {
+  .list {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .list {
+    grid-template-columns: 1fr;
+  }
+}
